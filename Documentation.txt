@@ -1,0 +1,14 @@
+In making this game I first wanted to get all my ideas on paper.  Or should I say on webpage.  I first started with making a website.  I sketched it out and then typed out every item (html).  Next I went into the website design(css).  After that I went into 
+making the actual game.  When making the game I followed two main tutorials.  The first
+was my IGME 235 class's circle blast.  This helped me lay out the very basic structure of it all and how to move items.  Next to reinforce all of this I followed Dr. Dower Chin's
+Pixi js YouTube series to further my knowledge of pixi.  Once the basics were done I went
+into the more detailed portions of the game.  Everything went very smoothly besides the original sprites.  When I first started making this game my sprites were not loading
+correctly.  To fix this I had to re-arrange when I loaded and called certain sprites.  Another issue I ran into was learning just how JavaScript classes connected and interacted
+with each other.  Once I figured that out, which did not take too long due to the similarities from c#, I was golden.  One of my most favorite features in my game was the numerous enemies.  There are currently four ways for enemies to attack you.  A normal shot, double shot, triple shot and then a boss fight.  I take great pride in this because I used everything I have learned thus far in my career to properly make this and I am very very happy with it.
+
+Images used: 
+Pirate ship: Author:Bleed https://opengameart.org/content/black-sail-ship-bleeds-game-art
+Ship: https://www.shutterstock.com/es/image-vector/sailing-ship-top-view-vector-design-205727953
+ 
+Current Status of the game: Playable and done for now.
+Creator: Lucas Veldman
