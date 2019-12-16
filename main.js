@@ -33,9 +33,9 @@ let shootSound, hitSound;
 //To create the base game and instantiate the gamer
 function setup(){
     //Load in the local storage
-    let listID = "ldv9727";
-    let items = localStorage.getItem(listID);
-    highScore = items;
+    let key = "coloniesPiratesWaters";
+    let value = localStorage.getItem(key);
+    highScore = value;
 
     document.querySelector("#gameZone").appendChild(app.view);
 
@@ -591,9 +591,9 @@ function loseHealth(){
         if(score > highScore){
             highScore = score;
             //Saving the data
-            let listID = "ldv9727";
-            let items = highScore;
-            localStorage.setItem(listID,items);
+            let key = "coloniesPiratesWaters";
+            let value = highScore;
+            localStorage.setItem(key,value);
         }
 
         pirates.forEach(b=>gameScreen.removeChild(b));
